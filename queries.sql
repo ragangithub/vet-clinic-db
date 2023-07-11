@@ -14,6 +14,7 @@ BEGIN;
 UPDATE animals SET species = 'unspecified';
 SELECT species from animals; -- verify that change was made
 ROLLBACK;
+SELECT species from animals;
 
 
 BEGIN;
