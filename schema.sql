@@ -83,3 +83,7 @@ PRIMARY KEY(visit_id )
 -- DAY 5 
 
 ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+CREATE INDEX idx_animal_id ON visits (animal_id);
+CREATE INDEX idx_vets_id ON visits (vet_id);
+CREATE INDEX idx_owners_email ON owners (email);
