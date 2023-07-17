@@ -78,3 +78,8 @@ CONSTRAINT fk_animals FOREIGN KEY(animal_id) REFERENCES animals(id),
 CONSTRAINT fk_vets FOREIGN KEY(vet_id) REFERENCES vets(id),
 PRIMARY KEY(visit_id )
 );
+
+
+-- DAY 5 
+
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
