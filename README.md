@@ -28,7 +28,16 @@
 
 # 📖 [Vet Clinic Database] <a name="about-project"></a>
 
-**[Vet clinic database]** is a database for a veterinary clinic.
+**[Vet clinic database]** This project uses a relational database to create the data structure for a vet clinic and create a complete database with data about:
+
+- Animals
+- Animals' owners
+- clinic employees
+- visits
+- species
+- vets
+
+![screenshot](./images/Database-Screenshoot.PNG)
 
 ## 🛠 Built With <a name="built-with"></a>
 
